@@ -35,11 +35,7 @@ const getDisplayedItems =
   };
 
 export const CustomPropertySelector = ({ api }: any) => {
-
   const { label, list } = useParameter<Parameter>(PARAM_KEY, { label: '', list: [] });
-
-  console.warn(44444444, label, list);
-
   return (
     <WithTooltip
       placement="top"
